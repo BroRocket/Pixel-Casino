@@ -12,7 +12,7 @@
   - Dealer stands on all 17s.
   - No double after splits, but you may split as many times as you'd like.
   - Blackjack pays 2 to 1.
-  - The deck is comprised of 6 decks and is shuffled after 2/3 of the cards have been played.
+  - The deck is comprised of 6 decks and is shuffled after 4/5 of the cards have been played.
   - Cards are dealt unbiased and at random, simulating a real deck.
   - No insurance is offered, and the dealer always checks for blackjack before play starts.
 
