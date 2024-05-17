@@ -10,9 +10,9 @@
 - **Starting Balance:** Every player begins with 500 currency.
 - **Blackjack Rules:**
   - Dealer stands on all 17s.
-  - No double after splits, but you may split as many times as you'd like.
   - Blackjack pays 2 to 1.
-  - The deck is comprised of 6 decks and is shuffled after 4/5 of the cards have been played.
+  - Infinite Splits
+  - The deck is made of 6 decks and is shuffled after 3/4 of the cards have been played.
   - Cards are dealt unbiased and at random, simulating a real deck.
   - No insurance is offered, and the dealer always checks for blackjack before play starts.
 
@@ -21,10 +21,10 @@
 To install and play **Pixel Casino**, follow these steps:
 
 1. **Download the Game:**
-   - Download the zip folder named `PixelCasino.zip` from the release page.
+   - Download the zip folder named `PixelCasinoV#-#.zip` from the release page, ensure it is the newest version as old versions may no longer be supported.
 
 2. **Extract the Game:**
-   - Unzip the `PixelCasino.zip` folder to a location of your choice on your computer.
+   - Unzip the `PixelCasinoV#-#.zip` folder to a location of your choice on your computer.
    - Ensure that the `assets` folder remains in the same directory as the game executable.
 
 3. **Run the Game:**
