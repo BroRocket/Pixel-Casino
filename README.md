@@ -14,7 +14,7 @@
   - Infinite Splits
   - The deck is made of 6 decks and is shuffled after 3/4 of the cards have been played.
   - Cards are dealt unbiased and at random, simulating a real deck.
-  - Dealer always checks for blackjack before play starts and Insurance pays 1 to 1.
+  - Dealer always checks for blackjack before play starts and Insurance pays 2 to 1.
 
 ## Installation
 
@@ -95,7 +95,7 @@ We are excited to announce the release of version 1.2 of **Pixel Casino**! This 
 - **Connection Error Handling**: Improved error handling to display an error page if the servers are down or if the user cannot connect, instead of crashing the app.
 
 #### New Features
-- **Blackjack Insurance**: Added the option to take insurance when the dealer is dealt an Ace face-up. This pays 1 to 1 if the dealer has blackjack. Now our Blackjack game offers all aspects of a typical casino Blackjack game.
+- **Blackjack Insurance**: Added the option to take insurance when the dealer is dealt an Ace face-up. This pays 2 to 1 if the dealer has blackjack. Now our Blackjack game offers all aspects of a typical casino Blackjack game.
 - **End of Game Display**: Enhanced the end-of-game display to show not only the result but also the amount of money won or lost.
 - **Game Icon Change**: Updated the game icon to a chip instead of a snake.
 
