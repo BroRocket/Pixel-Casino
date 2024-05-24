@@ -10,18 +10,18 @@
 - **Starting Balance:** Every player begins with 500 currency.
 - **Blackjack Rules:**
   - Dealer stands on all 17s.
-  - Blackjack pays 2 to 1.
+  - Blackjack pays 3 to 2.
   - Infinite Splits
   - The deck is made of 6 decks and is shuffled after 3/4 of the cards have been played.
   - Cards are dealt unbiased and at random, simulating a real deck.
-  - No insurance is offered, and the dealer always checks for blackjack before play starts.
+  - Dealer always checks for blackjack before play starts and Insurance pays 1 to 1.
 
 ## Installation
 
 To install and play **Pixel Casino**, follow these steps:
 
 1. **Download the Game:**
-   - Download the zip folder named `PixelCasinoV#-#.zip` from the release page, ensure it is the newest version as old versions may no longer be supported.
+   - Download the zip folder named `PixelCasino.zip` from the release page, this is the newest version as old versions may no longer be supported (but are available in the `Old Versions` folder).
 
 2. **Extract the Game:**
    - Unzip the `PixelCasinoV#-#.zip` folder to a location of your choice on your computer.
@@ -64,6 +64,47 @@ We welcome contributions to improve **Pixel Casino**. If you would like to contr
 Enjoy playing **Pixel Casino**!
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Update History
+
+## Version 1.2 Update
+ 
+We are excited to announce the release of version 1.2 of **Pixel Casino**! This update brings several significant improvements and bug fixes, enhancing your gaming experience and preparing the codebase for future expansions. Below is a detailed overview of the changes included in this release.
+
+### What's New in Version 1.2
+
+#### Efficiency Improvements and Bug Fixes
+- **Efficiency Enhancements**: Various functions have been optimized for better performance.
+- **Betting System Fixes**: Resolved a bug in the betting system related to splitting the first hand of a hand that had already been split.
+- **Modular Game Type Objects**: Prepared for the addition of new games by creating new files and making objects more modular.
+- **Username Change Exception Handling**: Fixed a bug in the server-side exception raising for changing usernames.
+- **Dealer Draw Logic**: Implemented logic to prevent the dealer from drawing more cards if all players bust or have blackjack.
+- **Dynamic UI Elements**: Added dynamic positioning for balance text, deal, and leave buttons in the Blackjack game screen to support various screen sizes.
+- **Chip/Bet Display Bug**: Fixed an issue where the chip/bet would not display while waiting for other players to ready up.
+- **Turn Display Bug**: Corrected the "Your Turn" display bug which previously always indicated it was your turn if you had cards. Now, it only displays during your actual turn.
+- **Hand Value Bug Fix**: Fixed a major bug in the hand value calculation function. It now correctly handles aces, adjusting their value to 1 only when necessary and preserving their higher value when it doesn't cause the hand to bust.
+- **Blackjack Payouts**: Adjusted Blackjack payouts to the correct 3 to 2 ratio as in casinos.
+
+#### Lobby System Improvements
+- **Lobby ID Overhaul**: Lobby IDs are now 4-character random strings, making them more secure and harder to brute force. This required a complete revamp of the lobby ID system.
+- **Private Lobby Fixes**: Resolved bugs in the private lobby system which previously prevented joining private lobbies.
+
+#### UI and Modular Code Improvements
+- **Separate File for Screen Elements**: Created a separate file to hold all screen elements (buttons, textboxes, etc.), increasing modularity and readability.
+- **Textbox Cursor Addition**: Added a cursor to text boxes for better text input navigation.
+- **Screen Element Transition**: Implemented a feature allowing screen elements like text boxes and buttons to transition between each other. This allows smoother page navigation using the Enter key.
+- **Connection Error Handling**: Improved error handling to display an error page if the servers are down or if the user cannot connect, instead of crashing the app.
+
+#### New Features
+- **Blackjack Insurance**: Added the option to take insurance when the dealer is dealt an Ace face-up. This pays 1 to 1 if the dealer has blackjack. Now our Blackjack game offers all aspects of a typical casino Blackjack game.
+- **End of Game Display**: Enhanced the end-of-game display to show not only the result but also the amount of money won or lost.
+- **Game Icon Change**: Updated the game icon to a chip instead of a snake.
+
+#### Codebase Preparation
+- **Modularity Preparation**: Prepped the codebase for adding new casino games.
+
+Make sure to re-download the game above and remove your old version to enjoy these enhancements. As always, if you encounter any issues or have suggestions, feel free to reach out to us.
+
+------------------------------------------------
 
 ## Version 1.1 Update
 
@@ -84,7 +125,6 @@ We are excited to announce the release of **Pixel Casino** version 1.1! This upd
 
 #### User Interface Improvements
 - **Dynamic UI Elements:** All button and textbox objects now dynamically orient themselves. Their positions are updated whenever you change the game screen size ensuring a responsive and adaptable interface.
-
 
 #### Bug Fixes
 - **Betting Restrictions:** Major flaws that allowed betting beyond a player's bank have been fixed. Players can no longer double or split without sufficient funds. 
