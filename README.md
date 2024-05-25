@@ -53,7 +53,7 @@ To install and play **Pixel Casino**, follow these steps:
      - Enjoy a classic game of Craps with your friends or other online players. **COMING SOON**
 
 ## System Requirements
-- **Storage:** 45.7 MB available space
+- **Storage:** 121 MB available space
 
 ## Contributing
 We welcome contributions to improve **Pixel Casino**. If you would like to contribute, please reach out to the owner of the repository.
