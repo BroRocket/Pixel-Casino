@@ -32,7 +32,7 @@ To install and play **Pixel Casino**, follow these steps:
 
 2. **Extract the Game:**
    - Unzip the `PixelCasinoV#.#.zip` folder to a location of your choice on your computer.
-   - Ensure that the `assets` folder remains in the same directory as the game executable.
+   - Do not remove any files or folders from the unzipped folder.
 
 3. **Run the Game:**
    - Navigate to the unzipped folder and run the executable file to start the game.
